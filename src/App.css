@@ -1,0 +1,99 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+/* base style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+
+h2 {
+  font-size: 3.1rem;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 1.7rem;
+  color: #82b440;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+
+
+h4 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+p {
+  color: #fff;
+  opacity: 75%;
+  font-size: 1.25rem;
+  font-family: "Rubik" sans-serif;
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: #E5E3E0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #82b440;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: #262626;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background: #545454;
+}
+
+

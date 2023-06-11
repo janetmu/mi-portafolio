@@ -145,7 +145,7 @@
   font-size: 1.2rem; 
   }
   .nav_right {
-    margin-right: 0px;
+    margin-left: 25px;
     justify-content: flex-end;
   }
 

@@ -10,8 +10,8 @@ section {
 
 .single_studies::before{
   position: absolute;
-  top: 24px;
-  left: 6px;
+  top: 28px;
+  left: -7px;
   width: 1px;
   height: 55%;
   content: "";
@@ -21,8 +21,8 @@ section {
 
 .studies-icon{
   position: relative;
-  top: 22px;
-  left: -20px;
+  top: 26px;
+  left: -24px;
   color: #82b440;
   font-size: 1.2rem;
 }

@@ -16,7 +16,8 @@
   display: flex;
   border-radius: 0.5rem;
   background-color: #262626;
-  margin-left: 28px;
+  margin-left: 12px;
+  margin-right: 14px;
 }
 
 .skills_card {

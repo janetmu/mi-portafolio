@@ -24,7 +24,7 @@ const HeroSection = () => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className="home_social grid">
+            <div className="home_social">
               <span className="home_contact">Conectemos</span>
               <div className="home_social">
                 <br></br>

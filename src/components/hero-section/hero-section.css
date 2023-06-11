@@ -2,10 +2,9 @@
   position: fixed;
   display: flex;
   flex-flow: column wrap;
-  top: 60%;
-  left: -10px;
+  top: 58%;
+  right: -16px;
   row-gap: 1.3rem;
-  margin-right: 0px;
 }
 
 .home_social a {
@@ -14,11 +13,11 @@
 
 .home_social::before {
   content: "     ";
-  width: 32px;
+  width: 45px;
   height: 2px;
-  margin-left: 35%;
+  margin-right: 0px;
   background-color: #fff;
-  transform: rotate(90deg) translate(2px, 7px);
+  transform: rotate(90deg) translate(8px, 4px);
 }
 
 .home_contact {
@@ -26,11 +25,13 @@
   position: fixed;
   display: flex;
   flex-flow: column wrap;
-  top: 45%;
-  left: -32px;
+  right: -34px;
+  top: 40%;
   row-gap: 1.1rem;
   transform: rotate(-90deg);
   font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .hero_section {

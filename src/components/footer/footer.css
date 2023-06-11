@@ -1,10 +1,9 @@
 .footer {
   text-align: center;
   border-top: 1px solid #262626;
-  padding-top: 15px;
 }
 
 .footer p{
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }

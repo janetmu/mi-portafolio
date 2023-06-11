@@ -7,7 +7,8 @@
 /* base style */
 
 * {
-  margin: 0;
+  margin-left: 8px;
+  margin-right: 8px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -22,6 +23,7 @@ html {
 
 h1,
 h2,
+h3,
 h4,
 h5,
 h6, 
@@ -32,18 +34,18 @@ footer {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 
 h2 {
-  font-size: 3.1rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 h3{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   color: #82b440;
   font-family: "Lato", sans-serif;
   margin: 0;
@@ -55,26 +57,40 @@ h4 {
   color: #fff;
   font-family: "Lato", sans-serif;
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+
+h5 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 1.rem;
+}
+
+h6 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 0.8rem;
 }
 
 p {
   color: #fff;
   opacity: 75%;
-  font-size: 1.25rem;
-  font-family: "Rubik" sans-serif;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
   font-weight: lighter;
 }
 
 ul {
   list-style: none;
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
 a {
   color: #E5E3E0;
   font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
   text-decoration: none;
 }
 

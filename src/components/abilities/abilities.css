@@ -1,0 +1,51 @@
+
+.abilities-icon{
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  color: #82b440;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ability {
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.single_abilities {
+  position: relative;
+}
+
+.single_abilities h5{
+  margin-left:40px;
+  font-weight:500;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+section {
+  margin-top: 40px;
+  margin-left: 8px;
+}
+
+.single_studies{
+  margin-left: 16px;
+  position: relative;
+}
+
+.single_studies::before{
+  position: absolute;
+  top: 24px;
+  left: 6px;
+  width: 1px;
+  height: 55%;
+  content: "";
+  background: #82b440;
+}
+
+
+.studies-icon{
+  position: relative;
+  top: 22px;
+  left: -20px;
+  color: #82b440;
+  font-size: 1.2rem;
+}
+
+section h3{
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.single_studies h5{
+  font-size: 1.rem;
+  margin-left: 30px;
+  font-weight:500;
+  margin-bottom: 8px;
+}
+
+.single_studies h6{
+  font-size: 1.rem;
+  opacity: 75%;
+  margin-left: 30px;
+  font-weight:700;
+}
+
+
+.single_studies p{
+  font-weight: 300;
+  line-height:  30px;
+  font-size: .9rem;
+}
+
+

@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+  margin-left: 0px;
+}
+
+.contact_container {
+  display: flex;
+  margin-left: 15px;
+}
+
+.contact_container a {
+  margin-left:40px;
+  font-size: 1rem;
+  font-weight:500;
+  margin-bottom: 8px;
+}
+
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 90px;
+  height: 80px;
+  justify-content: center;
+}
+
+.img-icon {
+  align-self: center;
+  padding-bottom: 5px;
+}
+
+.name-icon {
+  align-self: center;
+
+}
+
+

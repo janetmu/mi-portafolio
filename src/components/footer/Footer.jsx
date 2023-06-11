@@ -8,7 +8,8 @@ const Footer = () => {
     <footer>
       <Container className="footer">
         <p>
-          &copy; 2023 Diseñado y Desarrollado con <AiFillHeart color="red"/>  por Janet Marulanda Usma - Todos los derechos reservados
+          &copy; 2023 Diseñado y Desarrollado con <AiFillHeart color="red" />{" "}
+          por Janet M.U - Todos los derechos reservados
         </p>
       </Container>
     </footer>

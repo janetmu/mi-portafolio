@@ -76,7 +76,7 @@ const HeroSection = () => {
 
               <div className="hero_btns">
                 <button className="btn1">
-                  <a href="./cv_janet_marulanda_usma_dev.pdf" download={""}>
+                  <a href="./cv_janet_marulanda_usma_dev_2023.pdf" download={""}>
                     <i className="ri-file-download-line"></i>
                     CV
                   </a>

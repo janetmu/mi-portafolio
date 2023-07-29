@@ -135,3 +135,43 @@
   padding: 0px;
 }
 
+
+@media (min-width:768px) {
+
+  .home_social {
+    position: fixed;
+    display: flex;
+    flex-flow: column wrap;
+    top: 58%;
+    right: 4px;
+    row-gap: 1.3rem;
+  }
+
+  .home_contact {
+    left: 4px;
+  }
+
+  .hero_img {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.hero_section {
+    width: 73%;
+    padding-top: 75px;
+    margin-right: 11.5%;
+    margin-left: 13.5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    justify-content: space-evenly;
+  }
+
+  
+}
+

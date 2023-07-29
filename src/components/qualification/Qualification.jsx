@@ -71,14 +71,21 @@ const Qualification = () => {
           <span className="studies-icon">
             <i className="ri-honour-line"></i>
           </span>
-          <h5>Formación React</h5>
+          <h5>SQL con MySQL Server de Oracle</h5>
           <h6>Oracle Next Education - Alura</h6>
         </div>
         <div className="single_studies">
           <span className="studies-icon">
             <i className="ri-honour-line"></i>
           </span>
-          <h5>Formación HTML & CSS</h5>
+          <h5>React</h5>
+          <h6>Oracle Next Education - Alura</h6>
+        </div>
+        <div className="single_studies">
+          <span className="studies-icon">
+            <i className="ri-honour-line"></i>
+          </span>
+          <h5>HTML & CSS</h5>
           <h6>Oracle Next Education - Alura</h6>
         </div>
         <div className="single_studies">

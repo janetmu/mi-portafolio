@@ -5,28 +5,31 @@
   position: sticky;
   z-index: 1;
   background-color: #000000;
+  
 }
 
 .navigation {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
 } 
 
 .logo h5 {
+  display: flex;
   font-size: 1.3rem;
-  color: #82b440;  
+  color: #82b440; 
+  
 }
 
 .nav_list {
   display: flex;
-  align-items:flex-end;
+  
+  margin-left: 20%;
   column-gap: 2.7rem;
   top: 0;
-  right: 0;
-  width: 250px;
+  font-size: 1.2rem;
+  
   z-index: 999999;
-  align-items: center;
 }
 
 .nav_item a {
@@ -34,18 +37,11 @@
   transition: 0.3s;
   font-weight: 400;
   cursor: pointer;
-  font-size: 0.8rem;
 }
 
 .nav_item a:hover {
   color: #82b440;
 }
-
-.nav_right {
-  display: flex;
-  align-items: center;
-  gap: 4;
-} 
 
 .btn {
   background: #82b440;
@@ -86,7 +82,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #2626263a;
+    color: #2626263a;
     z-index: 888888;
     display: none;
     flex-direction: column ;
@@ -110,7 +106,12 @@
   z-index: 999999;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;  
+  align-items: flex-start; 
+  font-size: 1rem; 
+}
+
+.nav_list a:hover {
+  color: #82b440;
 }
 
 .menu_active{
@@ -145,9 +146,15 @@
   padding-top: 0px;
   font-size: 1.2rem; 
   }
+
   .nav_right {
     margin-right: -30%;
     justify-content: flex-end;
   }
+
+  .nav_list{
+  gap: 0;
+  justify-content: flex-start;
+}
 
 }

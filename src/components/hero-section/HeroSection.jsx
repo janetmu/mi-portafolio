@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./hero-section.css";
-import { Container, Row, Col } from "reactstrap";
+
 import { init } from "ityped";
 import heroImg from "../../assests/images/hero-img.png";
 
@@ -21,9 +21,8 @@ const HeroSection = () => {
 
   return (
     <section className="hero_section" id="inicio">
-      <Container>
-        <Row>
-          <Col lg="6" md="6">
+      
+          
             <div className="home_social">
               <span className="home_contact">Conectemos</span>
               <div className="home_social">
@@ -51,13 +50,11 @@ const HeroSection = () => {
                 </a>
               </div>
             </div>
-          </Col>
-          <Col lg="6" md="6">
+          
             <div className="hero_img">
               <img src={heroImg} alt="mi foto" className="w-100" />
             </div>
-          </Col>
-          <Col lg="6" md="6">
+          
             <div className="hero_content">
               <span>
                 <h4>¡Hola... Bienvenido a mi espacio!</h4>
@@ -93,9 +90,7 @@ const HeroSection = () => {
                 </button>
               </div>
             </div>
-          </Col>
-        </Row>
-      </Container>
+          
     </section>
   );
 };

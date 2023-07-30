@@ -10,12 +10,12 @@
 
 .navigation {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   
 } 
 
 .logo h5 {
-  display: flex;
+  
   font-size: 1.3rem;
   color: #82b440; 
   
@@ -24,8 +24,8 @@
 .nav_list {
   display: flex;
   
-  margin-left: 20%;
-  column-gap: 2.7rem;
+  margin-left: 25%;
+  column-gap: 2.2rem;
   top: 0;
   font-size: 1.2rem;
   
@@ -33,7 +33,7 @@
 }
 
 .nav_item a {
-  color: #fff;
+  color: #ffffffa6;
   transition: 0.3s;
   font-weight: 400;
   cursor: pointer;
